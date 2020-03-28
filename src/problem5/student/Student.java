@@ -36,7 +36,7 @@ public class Student {
         this.roll = roll;
     }
 
-    public Student(int roll, int acount, int backlog) {
+    public Student() {
         this.roll = roll;
         this.acount = acount;
         this.backlog = backlog;

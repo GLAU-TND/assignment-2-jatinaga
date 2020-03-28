@@ -36,9 +36,9 @@ public class Student {
         this.roll = roll;
     }
 
-    public Student() {
-        this.roll = roll;
-        this.acount = acount;
-        this.backlog = backlog;
+    public Student(int roll, int backlog, int acount) {
+        this.roll = this.roll;
+        this.acount = this.acount;
+        this.backlog = this.backlog;
     }
 }

@@ -18,7 +18,7 @@ public class MyPriorityQueue {
 
     public void insert(String name, int roll) {
         Node newNode = new Node();
-        Student obj = new Student();
+        Student obj = new Student(roll, backlog, acount);
         obj.setName(name);
         obj.setRoll(roll);
         newNode.setObj(obj);

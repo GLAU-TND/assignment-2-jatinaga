@@ -12,6 +12,14 @@ public class Student {
     int acount;
     int backlog;
 
+    public int getAcount() {
+        return acount;
+    }
+
+    public int getBacklog() {
+        return backlog;
+    }
+
     public Student(int roll, int acount, int backlog) {
         this.roll = roll;
         this.acount = acount;
